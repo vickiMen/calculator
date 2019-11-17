@@ -1,0 +1,131 @@
+#container {
+    width: 400px;
+    height: 600px;
+    border: 2px solid #8E8E8E;
+    border-radius: 15px;
+    background-color: #8E8E8E;
+}
+
+#section1 {
+    width: inherit;
+    height: 20%;
+    background-color: #4C4C4C;
+    border: 1px solid #4C4C4C;
+    border-radius: 14px;
+    position: relative;
+    color: white;
+    font-family: Helvetica;
+    font-size: 50px;
+    text-align: right;
+    top: 0px;
+    font-weight: lighter;
+}
+
+
+#section2 {
+    top: -4.5%;
+    width: inherit;
+    height: 53%;
+    position: relative;
+}
+
+#screen {
+    font-family: Helvetica;
+    position: relative;
+    top: 55%;
+    right: 1%;
+    font-weight: lighter;
+}
+
+.row {
+    top: 9%;
+    bottom: 0px;
+    position: absolute;
+    height: 150%;
+    width: 25%;
+}
+
+#row2 {
+    left: 25%;
+}
+
+#row3 {
+    left: 50%;
+}
+
+#row4 {
+    left: 75%;
+}
+
+.label1 {
+    top: 25px;
+    right: 40px;
+    position: absolute;
+}
+
+.label2 {
+    top: 115px;
+    right: 40px;
+    position: absolute;
+}
+
+.label3 {
+    top: 205px;
+    right: 40px;
+    position: absolute;
+}
+
+.label4 {
+    top: 295px;
+    right: 40px;
+    position: absolute;
+}
+
+.label5 {
+    top: 390px;
+    right: 40px;
+    position: absolute;
+}
+
+.button {
+    position: flex;
+    height: 19.3%;
+    margin: 1px;
+    width: 97%;
+    background-color: #D6D6D6;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    line-height: 90px;
+    font-weight: lighter;
+}
+
+.actionBtn {
+    background-color: #F79231;
+    border-radius: 5px;
+    border: 1px solid #F79231;
+    height: 19.3%;
+    margin: 1px;
+    width: 97%;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-align: center;
+    line-height: 90px;
+    font-weight: lighter;
+}
+
+.button:active {
+    opacity: 50%;
+    outline: none;
+}
+
+.actionBtn:active {
+    opacity: 50%;
+    outline: none;
+}
